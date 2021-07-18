@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap");
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+p, li {
+  font-family: 'Roboto', sans-serif;
+}
+
+header {
+  margin-bottom: 4.7em;
+}
+
+header nav {
+  background-color: rgba(17, 121, 59, 0.9) !important;
+}
+
+header nav li {
+  text-transform: uppercase;
+}
+
+header nav li:hover {
+  border-bottom: 2px solid white;
+}
+
+header nav li a {
+  color: white !important;
+}
+
+header nav li a:hover {
+  color: white !important;
+}
+
+header nav li .active {
+  color: white !important;
+  border-bottom: 2px solid white;
+}
+
+footer img, footer .contact-us {
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+footer img:hover, footer .contact-us:hover {
+  -webkit-transform: scale(1.1, 1.1);
+          transform: scale(1.1, 1.1);
+}
+
+#not-found {
+  -webkit-transform: translateY(20vh);
+          transform: translateY(20vh);
+}
+
+#not-found .best-logo {
+  margin: 0 auto;
+  max-height: 200px;
+  width: auto;
+  max-width: 100%;
+  margin: 1rem auto;
+}
+
+#not-found .button {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+#not-found .grey {
+  color: gray;
+}
+
+#not-found .text {
+  font-size: 18px;
+}
+
+.btn-primary {
+  background: rgba(17, 121, 59, 0.9) !important;
+  border-color: rgba(17, 121, 59, 0.9) !important;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+
+.btn-primary:hover {
+  background: rgba(9, 61, 30, 0.9) !important;
+  border-color: rgba(9, 61, 30, 0.9) !important;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+
+.btn-secondary {
+  background: rgba(1, 61, 119, 0.9) !important;
+  border-color: rgba(1, 61, 119, 0.9) !important;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+
+.btn-secondary:hover {
+  background: rgba(1, 31, 60, 0.9) !important;
+  border-color: rgba(1, 31, 60, 0.9) !important;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+
+@media only screen and (max-width: 576px) {
+  #not-found {
+    -webkit-transform: translateY(10vh);
+            transform: translateY(10vh);
+  }
+}
+/*# sourceMappingURL=notfound_main.css.map */
